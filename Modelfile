@@ -1,0 +1,6 @@
+FROM llama3.1:8b
+PARAMETER temperature 0.3
+PARAMETER top_p 0.9
+SYSTEM """
+<your final Veritas-Audit harness>
+"""
